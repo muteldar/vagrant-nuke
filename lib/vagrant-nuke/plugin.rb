@@ -12,7 +12,7 @@ module Vagrant
         require_relative 'command'
         Command
       end
-      
+
     end
   end
 end

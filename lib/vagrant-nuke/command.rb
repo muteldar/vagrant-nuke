@@ -18,7 +18,7 @@ module Vagrant
 
         boxes = @env.boxes.all.sort
         if boxes.empty?
-          return @env.ui.warn(I18n.t("vagrant.commands.box.no_installed.boxes"), prefix: false)
+          return @env.ui.warn("no boxes found")
         end
 
         nuke_boxes(boxes, options[:whatif])
