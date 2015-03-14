@@ -1,0 +1,50 @@
+module Vagrant
+  module Nuke
+    class Command < Vagrant.plugin('2', :command)
+      def execute
+        options = {}
+        opts = OptionParser.new do |o|
+          o.banner = 'Usage: vagrant nuke [options]'
+          o.separator ""
+          o.separator "Options:"
+          o.separator ""
+          o.on("-w","--whatif", "Displays all boxes that will be removed") do |i|
+            options[:whatif] = i
+          end
+        end
+
+        args = parse_options(opts)
+        return if !args
+
+        boxes = @env.boxes.all.sort
+        if boxes.empty?
+          return @env.ui.warn(I18n.t("vagrant.commands.box.no_installed.boxes"), prefix: false)
+        end
+
+        nuke_boxes(boxes, options[:whatif])
+        #exit as 0 great success!
+        0
+      end
+
+      def nuke_boxes(boxes, whatif)
+        if whatif
+          @env.ui.info("These would have been nuked")
+          boxes.each do |name, version, provider|
+            @env.ui.info("#{name}")
+            @env.ui.machine("box-name", name)
+          end
+        elsif
+          boxes.each do |name, version, provider|
+            @env.ui.info("#{name}")
+            @env.ui.machine("box-name", name)
+            @env.action_runner.run(Vagrant::Action.action_box_remove, {
+              box_name:                 name,
+              force_confirm_box_remove: true,
+            })
+          end
+        end
+      end
+
+    end
+  end
+end
