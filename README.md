@@ -5,7 +5,7 @@ Vagrant plugin to remove all boxes listed under vagrant box list
 
 ### Installation
 
-    $ gem install vagrant-nuke
+    gem coming soon
 
 ### Usage
 
