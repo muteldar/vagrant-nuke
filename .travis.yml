@@ -4,7 +4,7 @@ rvm:
 deploy:
   provider: rubygems
   api_key:
-    secure: "PAL9Gs/ZVBidU/BoGVLbWj2WtDQe58CkoyGgpjJVPDLiNexmiih+YM209vqXfJYdQ+NEpIuh8huxV7kpabkUUEjfXGPEKgJqlvRvML40d7j5rxC6lTjRkK6Qq/xCk7sI0sTl6ZAAiQYoZD9lNTTFZg1zia94YO5hC+lE845mRWM="
+    secure: GIsQmIKMcucQSSDymyJT+pn7t/2Xgf4K1uDpgAxh7cAHzl8RqNN9cN0Pq/0+uNd8DVHWJjAQzZIchcYh+2e5l/uZQsjszAs1w26pGRi6Xzl64vI+rYr4YcjrqNEJ1sHWAjl5On19i+K5ERkuS3J8U+gcGrVeE3S2MltlyNskF8U=
   gem: vagrant-nuke
   on:
     tags: true
