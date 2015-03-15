@@ -7,3 +7,7 @@ end
 group :plugins do
   gem "vagrant-nuke", path: "."
 end
+
+group :test do
+  gem 'rake'
+end

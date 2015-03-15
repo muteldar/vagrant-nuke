@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - 1.9.3
+- 1.9.3
+deploy:
+  provider: rubygems
+  api_key:
+    secure: AAGDI5FsKTLFV0yjMhrCszHnfLykTbPTqCocW2BprNobDv7LoNogMrRd6ouh/h3lelsSryJnQwGQOoCAcrtPowypJ4sSfWnJRlglP8TjBNgQ91HMccwpPacTx3HRdfXXec6dElEZioHmjEw7wtzpeekVKU3Bo10+PDxj0qDhuvk=
+  gem: vagrant-nuke
+  on:
+    repo: n00bworks/vagrant-nuke
