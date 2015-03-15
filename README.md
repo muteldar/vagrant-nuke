@@ -2,11 +2,13 @@ vagrant-nuke
 ========
 [![Build Status](https://travis-ci.org/n00bworks/vagrant-nuke.svg)](https://travis-ci.org/n00bworks/vagrant-nuke)
 
+[![Gem Version](https://badge.fury.io/rb/vagrant-nuke.svg)](http://badge.fury.io/rb/vagrant-nuke)
+
 Vagrant plugin to remove all boxes listed under vagrant box list
 
 ### Installation
 
-    gem coming soon
+    vagrant install plugin vagrant-nuke
 
 ### Usage
 

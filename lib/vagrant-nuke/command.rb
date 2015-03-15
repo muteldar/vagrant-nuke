@@ -1,6 +1,10 @@
 module Vagrant
   module Nuke
     class Command < Vagrant.plugin('2', :command)
+      def self.synopsis
+        "remove all boxes under vagrant box list."
+      end
+
       def execute
         options = {}
         opts = OptionParser.new do |o|
