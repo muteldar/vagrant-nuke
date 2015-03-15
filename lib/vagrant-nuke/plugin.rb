@@ -1,7 +1,5 @@
 module Vagrant
-
   module Nuke
-
     class Plugin < Vagrant.plugin('2')
       name "nuke"
       description <<-DESC
