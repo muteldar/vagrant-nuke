@@ -11,7 +11,7 @@ Vagrant plugin to remove all boxes listed under vagrant box list
 
 ### Usage
 
-#### Basic Usageva
+#### Basic Usage
 
     vagrant nuke
 
