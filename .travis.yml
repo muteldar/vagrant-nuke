@@ -8,5 +8,3 @@ deploy:
   gem: vagrant-nuke
   on:
     repo: n00bworks/vagrant-nuke
-  script:
-    - bundle exec rake build
