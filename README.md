@@ -1,5 +1,6 @@
 vagrant-nuke
 ========
+[![Build Status](https://travis-ci.org/n00bworks/vagrant-nuke.svg)](https://travis-ci.org/n00bworks/vagrant-nuke)
 
 Vagrant plugin to remove all boxes listed under vagrant box list
 
