@@ -1,7 +1,8 @@
 vagrant-nuke
 ========
-[![Build Status](https://travis-ci.org/n00bworks/vagrant-nuke.svg)](https://travis-ci.org/n00bworks/vagrant-nuke)
-[![Gem Version](https://badge.fury.io/rb/vagrant-nuke.svg)](http://badge.fury.io/rb/vagrant-nuke)
+[![Travis](https://img.shields.io/travis/n00bworks/vagrant-nuke.svg?style=flat-square)]()
+[![Gem](https://img.shields.io/gem/v/vagrant-nuke.svg?style=flat-square)]()
+[![Gem](https://img.shields.io/gem/dt/vagrant-nuke.svg?style=flat-square)]()
 
 Vagrant plugin to remove all boxes listed under vagrant box list
 
