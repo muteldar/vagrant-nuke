@@ -12,7 +12,7 @@ module Vagrant
           o.separator ""
           o.separator "Options:"
           o.separator ""
-          o.on("-w","--whatif", "Displays all boxes that will be removed") do |i|
+          o.on("-w","--whatif", "Displays all boxes that would be removed") do |i|
             options[:whatif] = i
           end
         end

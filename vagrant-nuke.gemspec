@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors       = ['n00bworks']
   s.email         = ['mat@n00bworks.com']
   s.summary       = "Delete all existing Vagrant boxes currently stored"
-  s.description   = "Using Vagrant can collect alot of boxes which after a while can become cluttered. While you can delete them individually Nuke will remove all linked boxes. Basically removes all boxes listed in vagrant box list."
+  s.description   = "Removes all boxes listed in vagrant box list."
   s.files         = `git ls-files`.split($\)
   s.executables   = s.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   s.require_paths = ['lib']
