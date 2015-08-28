@@ -34,15 +34,14 @@ module Vagrant
         if whatif
           @env.ui.info("These would have been nuked")
           boxes.each do |name, version, provider|
-            @env.ui.info("#{name}")
-            @env.ui.machine("box-name", name)
+            @env.ui.info("#{name} #{version}")
           end
         elsif
           boxes.each do |name, version, provider|
-            @env.ui.info("#{name}")
-            @env.ui.machine("box-name", name)
+            @env.ui.info("#{name} #{version}")
             @env.action_runner.run(Vagrant::Action.action_box_remove, {
               box_name:                 name,
+              box_version:              version,
               force_confirm_box_remove: true,
             })
           end
