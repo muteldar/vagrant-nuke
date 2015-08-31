@@ -1,6 +1,6 @@
 vagrant-nuke
 ========
-[![Travis](https://img.shields.io/travis/n00bworks/vagrant-nuke.svg?style=flat-square)]()
+[![Travis](https://img.shields.io/travis/muteldar/vagrant-nuke.svg?style=flat-square)]()
 [![Gem](https://img.shields.io/gem/v/vagrant-nuke.svg?style=flat-square)]()
 [![Gem](https://img.shields.io/gem/dt/vagrant-nuke.svg?style=flat-square)]()
 

@@ -4,9 +4,9 @@ rvm:
 - 2.0.0
 deploy:
   provider: rubygems
-  api_key:
-    secure: GTH+rO2iodGGkNBth4yGyJ3XUxibVCE9MLqC+kB1aL+H35QGXZjGw8QFNCW2AMoYhsnjn6e1noP+hd6sm0qkU0a2JouArzqvr2+XLxmL2z1B/gt+WpUQJyYzYS94CJx6nQGpaJZKj+vLTN3pL/M3qLUvM8WsmqAcziO5BJBobzc=
   gem: vagrant-nuke
   on:
     tags: true
-    repo: n00bworks/vagrant-nuke
+    repo: muteldar/vagrant-nuke
+  api_key:
+    secure: FMXmkegiNrp7k58ca/2lqFQhGpaI5cqUggktl1h/TkV6X2oHifCj0mpH5yMioPMM4bCxLNmQ+m0bwxP2TcixrLeaiB/5parbpBxo1Tu0Gpfd2O9Xvtexblu1sYO4Xe+Y7ls7OG/bdVKncREcKq3/RW6UZ7Pt+an1XKCa6Zku0XA=
