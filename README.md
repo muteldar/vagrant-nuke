@@ -4,7 +4,7 @@ vagrant-nuke
 [![Gem](https://img.shields.io/gem/v/vagrant-nuke.svg?style=flat-square)]()
 [![Gem](https://img.shields.io/gem/dt/vagrant-nuke.svg?style=flat-square)]()
 
-Vagrant plugin to remove all boxes listed under vagrant box list
+Vagrant plugin to remove all boxes listed under vagrant box list.
 
 ### Installation
 
