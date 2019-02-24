@@ -23,7 +23,7 @@ Vagrant plugin to remove all boxes listed under vagrant box list.
     vagrant nuke -w
     vagrant nuke --whatif
 
-##Contributing
+## Contributing
 
  1. Fork it
  2. Create your feature branch (git checkout -b my-new-feature)
